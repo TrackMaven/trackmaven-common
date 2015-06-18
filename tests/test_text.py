@@ -73,8 +73,8 @@ def test_extract_text_from_dict():
     Test that extract text will return only the text from the keys
     specified of the passed-in dict
     """
-    test_doc = {'a': 'lil wayne', 'b': 'banana', 'd': None}
-    assert extract_text_from_dict(test_doc, keys=['a', 'b', 'c', 'd']) == 'lil wayne banana'
+    test_doc = {'a': 'monkey dishwasher', 'b': 'banana', 'd': None}
+    assert extract_text_from_dict(test_doc, keys=['a', 'b', 'c', 'd']) == 'monkey dishwasher banana'
 
 
 def test_extract_links():
