@@ -1,6 +1,8 @@
 A swiss army knife of useful Python utils.
 ==========================================
 Ranging from list manipulation, to text sanitization and more!
+Docs are avaible `here
+<http://trackmaven-common.readthedocs.org/en/latest/>`_.
 
 
 Installation
@@ -10,6 +12,15 @@ Installation
 
     $ pip install trackmaven-common --extra-index-url https://pypi.fury.io/trackmaven/
 
+
+If you want to include this on a requirements.txt, use the following syntax...
+
+
+::
+
+    <other packages>
+    --extra-index-url https://pypi.fury.io/trackmaven/
+    trackmaven-common==1.0.0
 
 
 Development
