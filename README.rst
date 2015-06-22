@@ -93,8 +93,8 @@ Release Checklist
 
 ::
 
-    git remote add fury https://<username>@git.fury.io/trackmaven/<package-name>.git
-    git push fury master
+    python setup.py sdist
+    curl -F package=@<file> https://<gemfury_token>@push.fury.io/trackmaven/
 
 
 - Ensure tests pass.
