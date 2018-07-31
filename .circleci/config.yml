@@ -1,5 +1,6 @@
 version: 2
- jobs:
+
+jobs:
   build:
       docker:
         - image: themattrix/tox
