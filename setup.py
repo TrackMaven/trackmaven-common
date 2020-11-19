@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 
 packages = find_packages(exclude=['tests'])
 requires = [
-    'arrow == 0.5.4',
-    'beautifulsoup4 == 4.3.2'
+    'arrow == 0.17.0',
+    'beautifulsoup4 == 4.9.3'
 ]
 
 __version__ = ''
