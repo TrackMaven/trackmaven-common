@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
       docker:
-        - image: pennlabs/tox
+        - image: themattrix/tox
       steps:
         - checkout
         - run:
