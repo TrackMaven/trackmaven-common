@@ -1,15 +1,18 @@
 Changelog
 =========
 
-Version <X>
+Version 1.0.1
 -----------
 
-<YYYY-MM-DD>
+2020-11-19
 
-<Short description of what has changed>
+Dependency upgrades and bug fixes.
 
-- <List of changes>
-- <One by one>
+- Fixed broken uniquify logic in python 3.x
+- Fixed broken tox environment in python 3.x
+- Removed compatability with python 3.4
+- Added compatability with python 3.5+
+
 
 Version 1.0.0
 -----------
