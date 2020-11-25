@@ -25,8 +25,8 @@ def uniquify(l):
     seen = {}
     unique = []
     for i in l:
-        keys = [str(k) for k in i.keys()]
-        values = [str(v) for v in i.values()]
+        keys = sorted([str(k) for k in i.keys()])
+        values = sorted([str(v) for v in i.values()])
         marker = "k_".join(keys) + "v_".join(values)
         if marker in seen:
             continue
